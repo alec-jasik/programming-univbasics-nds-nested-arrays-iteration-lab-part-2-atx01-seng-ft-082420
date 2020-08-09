@@ -3,6 +3,7 @@ outer_results = []
 row_index = 0
 while row_index < src.count do
   element_index = 0
+  minimum_element = 1000000
   while element_index < src[row_index].count do 
     if src[row_index][element_index] < minimum_element
       minimum_element = src[row_index][element_index_index]
