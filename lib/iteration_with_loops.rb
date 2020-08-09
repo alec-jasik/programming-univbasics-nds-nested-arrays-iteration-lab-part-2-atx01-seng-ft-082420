@@ -7,6 +7,7 @@ while row_index < src.count do
     if src[row_index][element_index_index] < minimum_element
       minimum_element = src[row_index][element_index_index]
    outer_results << minimum_element
+ end
    element_index_index += 1
   end
   row_index += 1
